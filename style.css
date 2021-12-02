@@ -1,38 +1,17 @@
-/* 
-
-
-.item-1, .item-2, .item-3 {
-    background-size: cover;
-    background-position: 50% 50%;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.item-2 {
-    background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
-    background-repeat-x: initial;
-    background-repeat-y: initial;
 
+.thumbnail, h2{
+    position: relative;
+    font-size: 40px;
 }
 
-.item-3 {
-    background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
 }
-
-.promto-item {
-    height: 100vh;
-    width: 100vh;
-    line-height: 180px;
-    text-align: center;
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.row:before {
-    display: table;
-    content: " ";
-} */
