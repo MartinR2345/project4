@@ -1,9 +1,9 @@
-body {
+/* body {
     margin: 0;
     padding: 0;
-}
+} */
 
-
+/* This targets my section 1 background image/banner */
 .bg-image {
     height: 100vh;
     background-position: center;
@@ -11,39 +11,39 @@ body {
     background-size: cover;
 }
 
+/* This targets my section 1 h1 tag */
 .hOne {
     padding-bottom: 23px;
     margin-top: 158px;
 }
 
+/* This targets my section 1 p tag to make sure it is line up in the center properly */
 p {
     margin-top: 1.5rem;
     margin-bottom: 3rem;
 } 
 
+/* This centers the h2 text and put this them in the middle of the image */
+.thumbnail {
+    position: relative;
+}
 
 
 
-
-
-
-
-
-
-
-
+/* Three things I'm doing - I position the elements in the container to its normal position 2 - I'm making sure top/bottom margin is 0 and left/right margin is set to auto so the left and right margin are automatically set by the browser based on the container, to make element centered 3 -  I'm preventing the scrollbar from being shown*/
 .zoom-effect-container {
     position: relative;
-    /* height: 360px; */
     margin: 0 auto;
     overflow: hidden;
 }
 
+/* I created a transition effect ont my images in section 4  */
 .image-card img {
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
 }
 
+/* I created a hover effect on section 4 container and image as well */
 .zoom-effect-container:hover .image-card img {
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
@@ -52,25 +52,14 @@ p {
 }
 
 
-/* This add a hovering effect to h2 text */
+/* I changed the font-size of h2 text */
 h2 {
     font-size: 30px;
-    transition: .5s ease;
 }
 
+/* I targeted the h2 text of my div 'caption' in section 4 by */
 .caption {
     position: absolute;
     top: 31%;
-    /* left: 133px; */
     width: 100%;
-}
-
-This centers the h2 text and put this them in the middle of the image
-.thumbnail {
-    position: relative;
-}
-
-h2 {
-    font-size: 40px;
-    transition: .5s ease;
 }
