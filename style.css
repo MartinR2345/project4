@@ -4,14 +4,73 @@ body {
 }
 
 
-.thumbnail, h2{
+.bg-image {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hOne {
+    padding-bottom: 23px;
+    margin-top: 158px;
+}
+
+p {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+.zoom-effect-container {
     position: relative;
-    font-size: 40px;
+    /* height: 360px; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.image-card img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.zoom-effect-container:hover .image-card img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+  border: 50px;
+  border-radius: 25px 25px;
+}
+
+
+/* This add a hovering effect to h2 text */
+h2 {
+    font-size: 30px;
+    transition: .5s ease;
 }
 
 .caption {
     position: absolute;
-    top: 45%;
-    left: 0;
+    top: 31%;
+    /* left: 133px; */
     width: 100%;
+}
+
+This centers the h2 text and put this them in the middle of the image
+.thumbnail {
+    position: relative;
+}
+
+h2 {
+    font-size: 40px;
+    transition: .5s ease;
 }
