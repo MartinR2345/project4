@@ -3,7 +3,7 @@
     padding: 0;
 } */
 
-/* This targets my section 1 background image/banner */
+/* This targets my container 1 background image/banner */
 .bg-image {
     height: 100vh;
     background-position: center;
@@ -11,13 +11,13 @@
     background-size: cover;
 }
 
-/* This targets my section 1 h1 tag */
+/* This targets my container 1 h1 tag */
 .hOne {
     padding-bottom: 23px;
     margin-top: 158px;
 }
 
-/* This targets my section 1 p tag to make sure it is line up in the center properly */
+/* This targets my container 1 p tag to make sure it is line up in the center properly */
 p {
     margin-top: 1.5rem;
     margin-bottom: 3rem;
@@ -37,13 +37,13 @@ p {
     overflow: hidden;
 }
 
-/* I created a transition effect ont my images in section 4  */
+/* I created a transition effect ont my images in container 4  */
 .image-card img {
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
 }
 
-/* I created a hover effect on section 4 container and image as well */
+/* I created a hover effect on container 4 container and image as well */
 .zoom-effect-container:hover .image-card img {
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
